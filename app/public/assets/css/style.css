@@ -1,0 +1,96 @@
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    background-color: #f8f8f8;
+    max-height: 100vh
+}
+
+.welcome {
+    font-size: 50px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: ghostwhite;
+    color: cadetblue;
+    align-items: center;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+/* Jumbotron */
+#right-jumbo-col, #left-jumbo-col {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.padbutton {
+    margin-top: 20px;
+}
+
+.btn-block {
+    background-color: cadetblue;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-block:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.begin a {
+    text-decoration: none;
+}
+
+.btn-block:hover {
+    color: white;
+    border-color: lightseagreen; 
+    background-color: lightseagreen;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.yo {
+    padding: 10px;
+}
+
+#left-side-jumbo {
+    height: 100vh;
+    background: url("/assets/images/love.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+}
+
+.links a, .survey-links a {
+    margin: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
